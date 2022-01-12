@@ -60,6 +60,10 @@
   width: 50%;
 }
 
+#menuBar {
+  display: none;
+}
+
 #navbar {
   width: 50%;
   text-align: right;
@@ -72,13 +76,16 @@
   padding-left: 30px;
 }
 
-#navbar ul li a {
+.far {
+  display: none;
+}
+
+#navbar ul a {
   text-decoration: none;
   color: white;
 }
 
-#navbar ul li a:hover {
-  text-decoration: underline;
+#navbar ul a li:hover {
   color: wheat;
 }
 
@@ -339,3 +346,458 @@
   font-family: Montserrat-Bold;
 }
 
+/* ------------------------------- */
+/* package section */
+
+#packageSection {
+  background-image: url(./images/Background02.jpg);
+  background-size: cover;
+  background-position: center;
+  color: #f64b3c;
+  display: grid;
+  grid-template-rows: repeat(2, minmax(1fr, 1fr));
+  grid-template-columns: repeat(3, minmax(250px, 1fr));
+  justify-items: center;
+  padding: 7%;
+}
+
+#packageHeading {
+  grid-column: 1/-1;
+  font-size: 40px;
+  font-family: Archivo-Bold;
+  padding-bottom: 40px;
+}
+
+#bestPackage {
+  background-color: white;
+  padding: 20px;
+  width: 240px;
+  text-align: center;
+}
+
+#bestPackage h1 {
+  font-size: 30px;
+  font-family: Archivo-Bold;
+  padding-bottom: 20px;
+}
+
+#bestPackage h3 {
+  padding: 10px;
+  font-size: 22px;
+  font-family: Archivo-Bold;
+}
+
+#bestPackage p {
+  font-size: 18px;
+  font-family: Montserrat-Regular;
+  padding-bottom: 20px;
+}
+
+
+/* barry Henderson Section */
+
+#barryHendersonSection {
+  background-image: url(./images/Background06.jpg);
+  background-size: cover;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  height: 680px;
+}
+
+#barryHendersonSection p {
+  width: 50%;
+  font-size: 30px;
+  font-family: Archivo-Bold;
+  padding: 40px;
+  text-align: center;
+}
+
+#barryHendersonSection h1 {
+  font-size: 40px;
+  font-family: Montserrat-Bold;
+}
+
+/* Subscribe Section */
+
+#subscribeSection {
+  background-image: url(./images/Background02.jpg);
+  background-size: cover;
+  background-position: center;
+  color: #f64b3c;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 7%;
+  height: 650px;
+}
+
+#subscribeSection h1 {
+  font-size: 70px;
+  font-family: Archivo-Bold;
+}
+
+#subscribeSection p {
+  font-size: 24px;
+  font-family: Nunito-Regular;
+  width: 50%;
+  text-align: center;
+  padding: 30px 0px;
+}
+
+#subscribeForm {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#subscribeSection form input {
+  width: 400px;
+  height: 50px;
+  border-top-left-radius: 50px;
+  border-bottom-left-radius: 50px;
+  border-color: #f6eedf;
+  font-size: 18px;
+  padding-left: 20px;
+}
+
+input:focus::placeholder {
+  color: transparent;
+}
+
+#subscribeBtn {
+  background-color: #f64b3c;
+  color: white;
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 50px;
+  height: 50px;
+  font-size: 22px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 150px;
+}
+
+#subscribeBtn a {
+  text-decoration: none;
+  color: white;
+}
+
+#subscribeBtn a:hover {
+  font-weight: bold;
+}
+
+/* Link Section */
+
+#linkSection {
+  background-color: #222222;
+  color: white;
+  display: grid;
+  grid-template-columns: repeat(6, minmax(200px, 1fr));
+  grid-template-rows: 1fr;
+  padding: 7%;
+  height: 630px;
+  padding-top: 200px;
+}
+
+#titleHere {
+  grid-column: 1/4;
+  width: 70%;
+}
+
+#linkSection h1 {
+  font-size: 24px;
+  font-family: Archivo-Bold;
+  padding-bottom: 40px;
+}
+
+#linkSection p {
+  font-size: 18px;
+  font-family: Nunito-Regular;
+  padding-bottom: 40px;
+}
+
+#socialIcon {
+  display: flex;
+}
+
+#socialIcon a:hover {
+  font-size: 22px;
+}
+
+.fab {
+  background-color: white;
+  color: #222222;
+  padding: 10px;
+  border-radius: 100%;
+  text-align: center;
+  margin: 5px;
+}
+
+.fa-facebook-f {
+  padding: 10px 14px;
+}
+
+
+#about ul li, #services ul li, #other ul li {
+  padding-bottom: 10px;
+  font-size: 18px;
+  font-family: Nunito-Regular;
+  list-style: none;
+}
+
+#about ul li a, #services ul li a, #other ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+#about ul li a:hover, #services ul li a:hover, #other ul li a:hover {
+  color: wheat;
+  text-decoration: underline;
+}
+
+/* responsive 4 tap */
+@media only screen and (max-width: 1080px) {
+  #navbar ul li {
+    font-size: 16px;
+    padding-left: 10px;
+  }
+
+  #barryHendersonSection p {
+    font-size: 24px;
+  }
+
+  #titleHere {
+    grid-column: 1/3;
+  }
+}
+
+/* responsive 4 tap */
+@media only screen and (max-width: 800px) {
+  #navbar ul li {
+    font-size: 11px;
+  }
+
+  #discountInfo h1 {
+    font-size: 50px;
+  }
+
+  #discountInfo p {
+    font-size: 24px;
+  }
+
+  #burgerCategorySection h1, #burgerCategorySection1 h1 {
+    font-size: 50px;
+  }
+
+  #burgerCategorySection p, #burgerCategorySection1 p {
+    font-size: 18px;
+  }
+
+  #statisticsValue {
+    width: 200px;
+    height: 200px;
+  }
+
+  #statisticsSection {
+    grid-template-columns: repeat(3, minmax(200px, 1fr));
+    padding: 5%;
+  }
+
+  #packageSection {
+    padding: 5px;
+  }
+
+  #packageHeading {
+    font-size: 30px;
+  }
+
+  #bestPackage {
+    padding: 10px;
+    width: 220px;
+  }
+
+  #barryHendersonSection p {
+    font-size: 24px;
+  }
+
+  #subscribeSection h1 {
+    font-size: 50px;
+  }
+
+  #subscribeSection p {
+    font-size: 20px;
+  }
+
+  #titleHere {
+    grid-column: 1/2;
+  }
+
+  #socialIcon {
+    position: relative;
+    left: 250px;
+    bottom: 40px;
+  }
+
+  #linkSection {
+    padding-top: 100px;
+    padding-bottom: 50px;
+    height: auto;
+  }
+
+  /* mobile responsive */
+
+  @media only screen and (max-width: 600px) {
+    #navbar ul {
+      position: absolute;
+      right: -130px;
+      top: 20px;
+      display: flex;
+      flex-direction: column;
+    }
+
+    #navbar ul a {
+      text-align: left;
+      background-color: #f64b3c;
+      color: white;
+      padding: 10px 60px 10px 5px;
+      margin: 0.5px;
+    }
+
+    #menuBar {
+      display: inline;
+      font-size: 50px;
+    }
+
+    .far {
+      display: inline;
+    }
+
+    #navbar ul a:hover {
+      background-color: white;
+      color: #f64b3c;
+    }
+
+    #navbar ul a li:hover {
+      color: #f64b3c;
+    }
+
+    #discountInfo {
+      width: 100%;
+      text-align: center;
+      display: grid;
+      justify-items: center;
+    }
+
+    #discountInfo h1 {
+      font-size: 40px;
+    }
+
+  }
+
+  #ourChefSection,
+  #statisticsSection,
+  #packageSection,
+  #linkSection {
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    text-align: center;
+  }
+
+  #ourChefSection {
+    padding: 0px 5%;
+  }
+
+  #chefDetail {
+    text-align: center;
+  }
+
+  #burgerImage,
+  #burgerInfo,
+  #burgerImage1,
+  #burgerInfo1 {
+    width: 100%;
+    display: grid;
+    justify-items: center;
+    text-align: center;
+  }
+
+  #burgerCategorySection1 {
+    flex-direction: column-reverse;
+  }
+
+  #statisticsHeading h1 {
+    font-size: 50px;
+    padding: 30px;
+  }
+
+  #statisticsValue {
+    margin-bottom: 50px;
+  }
+
+  #packageHeading {
+    font-size: 18px;
+    padding: 20px;
+  }
+
+  #bestPackage {
+    width: 270px;
+    margin: 10px 0px;
+    display: grid;
+    justify-items: center;
+  }
+
+  #barryHendersonSectio,
+  #subscribeSection {
+    height: auto;
+    padding: 200px 10px;
+  }
+
+  #barryHendersonSection p {
+    font-size: 18px;
+    width: 100%;
+  }
+
+  #barryHendersonSection h1 {
+    font-size: 30px;
+  }
+
+  #subscribeSection h1 {
+    font-size: 28px;
+  }
+
+  #subscribeSection p {
+    width: auto;
+  }
+
+  #subscribeForm form input {
+    width: 220px;
+  }
+
+  #subscribeBtn {
+    width: 90px;
+  }
+
+  #subscribeBtn a {
+    font-size: 18px;
+  }
+
+  #linkSection {
+    display: grid;
+    text-align: left;
+    padding-left: 100px;
+  }
+
+  #socialIcon {
+    position: static;
+  }
+
+  #linkSection h1 {
+    padding-top: 40px;
+    padding-bottom: 20px;
+  }
+
+}
