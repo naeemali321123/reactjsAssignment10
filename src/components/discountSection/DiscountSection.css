@@ -1,0 +1,161 @@
+#discountSection {
+	background-image: url(../../images/Background01.png);
+	color: white;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding-top: 10px;
+	padding-bottom: 80px;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+}
+
+#topbar {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+#logo,
+#discountInfo {
+	width: 50%;
+}
+
+#menuBar {
+	display: none;
+}
+
+#navbar {
+	width: 50%;
+	text-align: right;
+}
+
+#navbar ul li {
+	display: inline-block;
+	font-size: 18px;
+	font-family: Poppins-SemiBold;
+	padding-left: 30px;
+}
+
+.far {
+	display: none;
+}
+
+#navbar ul a {
+	text-decoration: none;
+	color: white;
+}
+
+#navbar ul a li:hover {
+	color: wheat;
+}
+
+#discountInfo h1 {
+	font-size: 70px;
+	font-family: Archivo-Bold;
+	padding-bottom: 40px;
+	padding-top: 40px;
+}
+
+#discountInfo p {
+	font-size: 30px;
+	font-family: Nunito-Regular;
+}
+
+#discountInfo h2 {
+	font-size: 18px;
+	font-family: Poppins-SemiBold;
+	background-color: #f64b3c;
+	width: 200px;
+	padding: 10px 30px;
+	text-align: center;
+	border-radius: 30px;
+	margin-top: 50px;
+}
+
+#discountInfo h2 a {
+	text-decoration: none;
+	color: white;
+}
+
+#discountInfo h2 a:hover {
+	color: wheat;
+}
+
+/* responsive 4 tap */
+
+@media only screen and (max-width: 1080px) {
+	#navbar ul li {
+		font-size: 16px;
+		padding-left: 10px;
+	}
+}
+/* responsive 4 tap */
+
+@media only screen and (max-width: 800px) {
+	#navbar ul li {
+		font-size: 11px;
+	}
+	#discountInfo h1 {
+		font-size: 50px;
+	}
+	#discountInfo p {
+		font-size: 24px;
+	}
+}
+/* mobile responsive */
+@media only screen and (max-width: 600px) {
+	#topbar {
+		display: flex;
+		flex-direction: row-reverse;
+		text-align: right;
+	}
+	#navbar {
+		text-align: left;
+	}
+
+	#navbar ul {
+		position: absolute;
+		left: -130px;
+		top: 0px;
+		display: flex;
+		flex-direction: column;
+		transition: .5s;
+	}
+	#navbar ul a {
+		text-align: left;
+		background-color: #f64b3c;
+		color: white;
+		padding: 10px 60px 10px 5px;
+		margin: 0.5px;
+	}
+	#menuBar {
+		display: inline;
+		font-size: 50px;
+	}
+	#menuBar:hover {
+		color: wheat;
+	}
+	.far {
+		display: inline;
+	}
+	#navbar ul a:hover {
+		background-color: white;
+		color: #f64b3c;
+	}
+	#navbar ul a li:hover {
+		color: #f64b3c;
+	}
+	#discountInfo {
+		width: 100%;
+		text-align: center;
+		display: grid;
+		justify-items: center;
+	}
+	#discountInfo h1 {
+		font-size: 40px;
+	}
+}

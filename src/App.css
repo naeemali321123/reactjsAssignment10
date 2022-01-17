@@ -1,183 +1,3 @@
-@font-face {
-	font-family: Poppins-SemiBold;
-	src: url(./fonts/Poppins-SemiBold.ttf);
-}
-
-@font-face {
-	font-family: Archivo-Bold;
-	src: url(./fonts/Archivo-Bold.ttf);
-}
-
-@font-face {
-	font-family: Nunito-Regular;
-	src: url(./fonts/Nunito-Regular.ttf);
-}
-
-@font-face {
-	font-family: Montserrat-Regular;
-	src: url(./fonts/Montserrat-Regular.ttf);
-}
-
-@font-face {
-	font-family: Montserrat-Bold;
-	src: url(./fonts/Montserrat-Bold.ttf);
-}
-
-* {
-	margin: 0px;
-	padding: 0px;
-	box-sizing: border-box;
-}
-
-.uniPadding {
-	padding: 0px 5%;
-}
-
-/* discount section */
-
-#discountSection {
-	background-image: url(./images/Background01.png);
-	color: white;
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
-	padding-top: 10px;
-	padding-bottom: 80px;
-	display: flex;
-	flex-direction: column;
-	flex-wrap: wrap;
-}
-
-#topbar {
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-	padding-top: 10px;
-	padding-bottom: 10px;
-}
-
-#logo,
-#discountInfo {
-	width: 50%;
-}
-
-#menuBar {
-	display: none;
-}
-
-#navbar {
-	width: 50%;
-	text-align: right;
-}
-
-#navbar ul li {
-	display: inline-block;
-	font-size: 18px;
-	font-family: Poppins-SemiBold;
-	padding-left: 30px;
-}
-
-.far {
-	display: none;
-}
-
-#navbar ul a {
-	text-decoration: none;
-	color: white;
-}
-
-#navbar ul a li:hover {
-	color: wheat;
-}
-
-#discountInfo h1 {
-	font-size: 70px;
-	font-family: Archivo-Bold;
-	padding-bottom: 40px;
-	padding-top: 40px;
-}
-
-#discountInfo p {
-	font-size: 30px;
-	font-family: Nunito-Regular;
-}
-
-#discountInfo h2 {
-	font-size: 18px;
-	font-family: Poppins-SemiBold;
-	background-color: #f64b3c;
-	width: 200px;
-	padding: 10px 30px;
-	text-align: center;
-	border-radius: 30px;
-	margin-top: 50px;
-}
-
-#discountInfo h2 a {
-	text-decoration: none;
-	color: white;
-}
-
-#discountInfo h2 a:hover {
-	color: wheat;
-}
-
-/* Our Chef Section */
-
-#ourChefSection {
-	background-image: url(./images/Background02.jpg);
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
-	color: #f64b3c;
-	padding-bottom: 50px;
-	padding-top: 50px;
-	display: grid;
-	grid-template-rows: repeat(2, minmax(1fr, 1fr));
-	grid-template-columns: repeat(3, minmax(200px, 1fr));
-	justify-items: center;
-	align-items: center;
-}
-
-#chefDetail {
-	display: grid;
-	justify-content: center;
-	justify-items: center;
-	grid-column: 1/-1;
-}
-
-#chefDetail h1 {
-	padding: 30px;
-	font-size: 50px;
-	font-family: Archivo-Bold;
-}
-
-#chefDetail p {
-	font-size: 22px;
-	font-family: Nunito-Regular;
-}
-
-#chef {
-	text-align: center;
-	padding: 30px 10px;
-}
-
-#chef img {
-	width: 200px;
-	padding: 10px;
-}
-
-#chef h1 {
-	font-size: 25px;
-	font-family: Archivo-Bold;
-	padding: 15px 0px;
-}
-
-#chef p {
-	font-family: Montserrat-Regular;
-	font-size: 18px;
-}
-
 /* burger Catory Section */
 
 #burgerCategorySection {
@@ -566,10 +386,6 @@ input:focus::placeholder {
 /* responsive 4 tap */
 
 @media only screen and (max-width: 1080px) {
-	#navbar ul li {
-		font-size: 16px;
-		padding-left: 10px;
-	}
 	#barryHendersonSection p {
 		font-size: 24px;
 	}
@@ -581,15 +397,6 @@ input:focus::placeholder {
 /* responsive 4 tap */
 
 @media only screen and (max-width: 800px) {
-	#navbar ul li {
-		font-size: 11px;
-	}
-	#discountInfo h1 {
-		font-size: 50px;
-	}
-	#discountInfo p {
-		font-size: 24px;
-	}
 	#burgerCategorySection h1,
 	#burgerCategorySection1 h1 {
 		font-size: 50px;
@@ -638,63 +445,16 @@ input:focus::placeholder {
 		padding-bottom: 50px;
 		height: auto;
 	}
-	/* mobile responsive */
-	@media only screen and (max-width: 600px) {
-		#navbar ul {
-			position: absolute;
-			right: -130px;
-			top: 5px;
-			display: flex;
-			flex-direction: column;
-			transition: .5s;
-		}
-		#navbar ul a {
-			text-align: left;
-			background-color: #f64b3c;
-			color: white;
-			padding: 10px 60px 10px 5px;
-			margin: 0.5px;
-		}
-		#menuBar {
-			display: inline;
-			font-size: 50px;
-		}
-		#menuBar:hover {
-			color: wheat;
-		}
-		.far {
-			display: inline;
-		}
-		#navbar ul a:hover {
-			background-color: white;
-			color: #f64b3c;
-		}
-		#navbar ul a li:hover {
-			color: #f64b3c;
-		}
-		#discountInfo {
-			width: 100%;
-			text-align: center;
-			display: grid;
-			justify-items: center;
-		}
-		#discountInfo h1 {
-			font-size: 40px;
-		}
-	}
-	#ourChefSection,
+}
+/* mobile responsive */
+@media only screen and (max-width: 600px) {
 	#statisticsSection,
 	#packageSection,
 	#linkSection {
 		grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
 		text-align: center;
 	}
-	#ourChefSection {
-		padding: 0px 5%;
-	}
-	#chefDetail {
-		text-align: center;
-	}
+
 	#burgerImage,
 	#burgerInfo,
 	#burgerImage1,

@@ -1,88 +1,19 @@
-import logo from "./images/Logo.png";
-import Chef01 from "./images/Chef01.png";
-import Chef02 from "./images/Chef02.png";
-import Chef03 from "./images/Chef03.png";
 import BurgerImage1 from "./images/BurgerImage1.png";
 import BurgerImage2 from "./images/BurgerImage2.png";
-import burgerIcon from "./images/burgerIcon.png";
+import burgerIcon from "./images/BurgerIcon.png";
 import "./App.css";
+import './components/fontsStyle.css';
+
+// components
+import DiscountSection from "./components/discountSection/DiscountSection.js";
+import OurChefSection from "./components/ourChefSection/OurChefSection.js";
 
 function App() {
   return (
     <div id="container">
-      {/* Discount Section */}
-      <div id="discountSection" className="uniPadding">
-        <div id="topbar">
-          <div id="logo">
-            <img src={logo} alt="Logo" />
-          </div>
-          <div id="navbar">
-            <div id="menuBar" onClick="openMenu()">
-              <i class="fas fa-bars"></i>
-            </div>
-            <ul>
-              <a href="">
-                <li id='crossmenu' onClick="closeMenu()">
-                  <i class="far fa-times-circle"></i>
-                </li>
-              </a>
-              <a href="">
-                <li>HOME</li>
-              </a>
-              <a href="">
-                <li>PRODUCT</li>
-              </a>
-              <a href="">
-                <li>PROMO</li>
-              </a>
-              <a href="">
-                <li>ABOUT</li>
-              </a>
-              <a href="">
-                <li>CONTACT</li>
-              </a>
-            </ul>
-          </div>
-        </div>
-        <div id="discountInfo">
-          <h1>
-            Get Cashback
-            <br /> up to 50%
-          </h1>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-            consectetur justo eu nunc consequat.
-          </p>
-          <h2>
-            <a href="">ORDER NOW</a>
-          </h2>
-        </div>
-      </div>
-      {/* Our Chef Section */}
-      <div id="ourChefSection" className="uniPadding">
-        <div id="chefDetail">
-          <h1>Our Chef</h1>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br />
-            Vivamus lacinia odio vitae vestibulum vestibulum.
-          </p>
-        </div>
-        <div id="chef">
-          <img src={Chef01} alt="Our Checf 01" />
-          <h1>AIDEN HUNTER</h1>
-          <p>Founder</p>
-        </div>
-        <div id="chef">
-          <img src={Chef02} alt="Our Checf 02" />
-          <h1>AIDEN HUNTER</h1>
-          <p>Co-Founder</p>
-        </div>
-        <div id="chef">
-          <img src={Chef03} alt="Our Checf 02" />
-          <h1>AIDEN HUNTER</h1>
-          <p>Co-Founder</p>
-        </div>
-      </div>
+      <DiscountSection />
+      <OurChefSection />
+
       {/* burger CatagFory Section */}
       <div id="burgerCategorySection">
         <div id="burgerImage">
