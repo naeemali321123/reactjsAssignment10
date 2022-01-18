@@ -1,0 +1,19 @@
+.redButton a {
+	font-size: 18px;
+	font-family: Poppins-SemiBold;
+	background-color: #f64b3c;
+	width: 200px;
+	padding: 10px 30px;
+	text-align: center;
+	border-radius: 30px;
+	margin-top: 50px;
+    text-decoration: none;
+	color: white;
+}
+.redButton a:hover {
+	color: wheat;
+}
+.whiteButton a{
+	background-color: white;
+	color: #f64b3c;
+}

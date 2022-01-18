@@ -1,6 +1,7 @@
 import '../fontsStyle.css';
 import './DiscountSection.css';
 import logo from "../../images/Logo.png";
+import RedButton from "../button/MultiButton.js";
 
 function DiscountSection() {
     return (
@@ -15,7 +16,7 @@ function DiscountSection() {
                     </div>
                     <ul>
                         <a href="">
-                            <li id='crossmenu' onClick="closeMenu()">
+                            <li id='crossMenu' onClick="closeMenu()">
                                 <i class="far fa-times-circle"></i>
                             </li>
                         </a>
@@ -46,9 +47,7 @@ function DiscountSection() {
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
                     consectetur justo eu nunc consequat.
                 </p>
-                <h2>
-                    <a href="">ORDER NOW</a>
-                </h2>
+                <RedButton />
             </div>
         </div>
     )

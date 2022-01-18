@@ -30,28 +30,6 @@
 	font-size: 22px;
 	font-family: Nunito-Regular;
 }
-
-#chef {
-	text-align: center;
-	padding: 30px 10px;
-}
-
-#chef img {
-	width: 200px;
-	padding: 10px;
-}
-
-#chef h1 {
-	font-size: 25px;
-	font-family: Archivo-Bold;
-	padding: 15px 0px;
-}
-
-#chef p {
-	font-family: Montserrat-Regular;
-	font-size: 18px;
-}
-
 @media only screen and (max-width: 600px) {
 	#ourChefSection {
 		grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));

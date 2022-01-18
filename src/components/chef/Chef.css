@@ -1,0 +1,20 @@
+#chef {
+	text-align: center;
+	padding: 30px 10px;
+}
+
+#chef img {
+	width: 200px;
+	padding: 10px;
+}
+
+#chef h1 {
+	font-size: 25px;
+	font-family: Archivo-Bold;
+	padding: 15px 0px;
+}
+
+#chef p {
+	font-family: Montserrat-Regular;
+	font-size: 18px;
+}

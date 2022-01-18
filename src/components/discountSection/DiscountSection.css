@@ -24,7 +24,7 @@
 	width: 50%;
 }
 
-#menuBar {
+#menuBar, #crossMenu i{
 	display: none;
 }
 
@@ -32,16 +32,14 @@
 	width: 50%;
 	text-align: right;
 }
-
+#navbar ul:first-child{
+	display: none;
+}
 #navbar ul li {
 	display: inline-block;
 	font-size: 18px;
 	font-family: Poppins-SemiBold;
 	padding-left: 30px;
-}
-
-.far {
-	display: none;
 }
 
 #navbar ul a {
@@ -63,26 +61,6 @@
 #discountInfo p {
 	font-size: 30px;
 	font-family: Nunito-Regular;
-}
-
-#discountInfo h2 {
-	font-size: 18px;
-	font-family: Poppins-SemiBold;
-	background-color: #f64b3c;
-	width: 200px;
-	padding: 10px 30px;
-	text-align: center;
-	border-radius: 30px;
-	margin-top: 50px;
-}
-
-#discountInfo h2 a {
-	text-decoration: none;
-	color: white;
-}
-
-#discountInfo h2 a:hover {
-	color: wheat;
 }
 
 /* responsive 4 tap */
