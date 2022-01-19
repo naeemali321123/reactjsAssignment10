@@ -1,6 +1,6 @@
-import '../fontsStyle.css';
+import '../FontsStyle.css';
 import './OurChefSection.css';
-import Chef from "../chef/Chef.js";
+import Chef, {Chef1 , Chef2} from "../multiChef/MultiChef";
 
 
 function OurChefSection() {
@@ -14,8 +14,8 @@ function OurChefSection() {
                 </p>
             </div>
             <Chef />
-            <Chef />
-            <Chef />
+            <Chef1 />
+            <Chef2 />
         </div>
     )
 }

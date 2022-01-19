@@ -1,7 +1,7 @@
-import '../fontsStyle.css';
+import '../FontsStyle.css';
 import './DiscountSection.css';
 import logo from "../../images/Logo.png";
-import RedButton from "../button/MultiButton.js";
+import RedButton from "../multiButton/MultiButton.js";
 
 function DiscountSection() {
     return (

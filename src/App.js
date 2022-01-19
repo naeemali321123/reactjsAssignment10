@@ -2,35 +2,24 @@ import BurgerImage1 from "./images/BurgerImage1.png";
 import BurgerImage2 from "./images/BurgerImage2.png";
 import burgerIcon from "./images/BurgerIcon.png";
 import "./App.css";
-import './components/fontsStyle.css';
+import './components/FontsStyle.css';
 
 // components
 import DiscountSection from "./components/discountSection/DiscountSection.js";
 import OurChefSection from "./components/ourChefSection/OurChefSection.js";
+import BurCatSec from "./components/burCatSec/BurCatSec.js";
+import ProductImage from "./components/productImage/ProductImage";
 
 function App() {
   return (
     <div id="container">
       <DiscountSection />
       <OurChefSection />
+      <BurCatSec />
+      <ProductImage/>
 
-      {/* burger CatagFory Section */}
-      <div id="burgerCategorySection">
-        <div id="burgerImage">
-          <img src={BurgerImage1} alt="burger" />
-        </div>
-        <div id="burgerInfo">
-          <h1>Best Burger</h1>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
-            lacinia odio vitae vestibulum vestibulum.
-          </p>
-          <h2>
-            <a href="">ORDER NOW</a>
-          </h2>
-        </div>
-      </div>
-      {/* burger burgerCategory Section 2 */}
+      
+      {/* burger burgerCategory Section 1 */}
       <div id="burgerCategorySection1">
         <div id="burgerInfo1">
           <h1>Big Burger</h1>

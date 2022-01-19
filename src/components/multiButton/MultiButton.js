@@ -1,4 +1,4 @@
-import '../fontsStyle.css';
+import '../FontsStyle.css';
 import './MultiButton.css';
 
 function RedButton() {
