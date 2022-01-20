@@ -3,17 +3,17 @@ import './MultiButton.css';
 
 function RedButton() {
     return (
-        <h2 className='redButton'>
+        <div className='redButton'>
             <a href="">ORDER NOW</a>
-        </h2>
+        </div>
     )
 }
 export default RedButton;
 
 export function WhiteButton() {
     return (
-        <h2 className='whiteButton redButton'>
+        <div className='whiteButton redButton'>
             <a href="">ORDER NOW</a>
-        </h2>
+        </div>
     )
 }

@@ -1,21 +1,15 @@
 #productImage {
-    width: 50%;
-    padding: 7%;
-    align-items: center;
+	text-align: left;
 }
-
+.productImage {
+	text-align: center;
+}
+.productImage img,
 #productImage img {
-    width: 80%;
+	width: 80%;
 }
-
-/* responsive 4 tap */
-
-@media only screen and (max-width: 600px) {
-
-    #productImage{
-        width: 100%;
-        display: grid;
-        justify-items: center;
-        text-align: center;
-    }
+@media only screen and (max-width: 800px) {
+	#productImage {
+		text-align: center;
+	}
 }

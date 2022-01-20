@@ -1,23 +1,38 @@
+// StyleSheet
 import '../FontsStyle.css';
 import './BurCatSec.css';
-import BurgerImage1 from '../../images/BurgerImage1.png';
+
+// Components link
+import ProductImage, { ProductImage1 } from '../productImage/ProductImage';
+import RedButton, { WhiteButton } from '../multiButton/MultiButton';
+import WhiteHeading, { RedHeading } from '../productHeading/ProductHeading';
+import WhitePara, { RedPara } from '../productPara/ProductPara';
 
 export default function BurCatSec() {
-    return (
-        <div id="burgerCategorySection">
-        <div id="burgerImage">
-          <img src={BurgerImage1} alt="burger" /> 
-        </div>
-        <div id="burgerInfo">
-          <h1>Best Burger</h1>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
-            lacinia odio vitae vestibulum vestibulum.
-          </p>
-          <h2>
-            <a href="">ORDER NOW</a>
-          </h2>
-        </div>
+  return (
+    <div className="BurCatContainer">
+      <div className="burgerImage">
+        <ProductImage />
       </div>
-    )
+      <div className="burgerInfo">
+        <WhiteHeading />
+        <WhitePara />
+        <WhiteButton />
+      </div>
+    </div>
+  )
+}
+export function BurCatSec1() {
+  return (
+    <div className="BurCatContainer" id="BurCatContainer1">
+      <div className="burgerInfo">
+        <RedHeading />
+        <RedPara />
+        <RedButton />
+      </div>
+      <div className="burgerImage">
+        <ProductImage1 />
+      </div>
+    </div>
+  )
 }

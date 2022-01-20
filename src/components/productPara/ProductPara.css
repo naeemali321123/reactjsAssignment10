@@ -1,0 +1,16 @@
+.whitePara p {
+	font-size: 24px;
+	font-family: Nunito-Regular;
+	padding-bottom: 40px;
+	color: white;
+}
+
+/* responsive 4 tap */
+@media only screen and (max-width: 1000px) {
+	.whitePara p {
+		font-size: 20px;
+	}
+}
+#redPara p {
+	color: #f64b3c;
+}
