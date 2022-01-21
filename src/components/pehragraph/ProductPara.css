@@ -1,8 +1,16 @@
+
 .whitePara p {
 	font-size: 24px;
 	font-family: Nunito-Regular;
 	padding-bottom: 40px;
 	color: white;
+}
+#redPara, .whitePara{
+	display: flex;
+	justify-content: center;
+}
+#redPara p {
+	color: #f64b3c;
 }
 
 /* responsive 4 tap */
@@ -11,6 +19,4 @@
 		font-size: 20px;
 	}
 }
-#redPara p {
-	color: #f64b3c;
-}
+

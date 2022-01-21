@@ -1,11 +1,15 @@
-import burgerIcon from "./images/BurgerIcon.png";
+// CSS LINK
 import "./App.css";
 import './components/FontsStyle.css';
 
-// components
+// IMAGE LINK
+import burgerIcon from "./images/BurgerIcon.png";
+
+// components LINK
 import DiscountSection from "./components/discountSection/DiscountSection.js";
 import OurChefSection from "./components/ourChefSection/OurChefSection.js";
 import BurCatSec, { BurCatSec1 } from "./components/burCatSec/BurCatSec.js";
+import StatisticsSection from "./components/statisticsSection/StatisticsSection";
 
 function App() {
   return (
@@ -14,29 +18,9 @@ function App() {
       <OurChefSection />
       <BurCatSec />
       <BurCatSec1 />
+      <StatisticsSection />
 
-      {/* ٖstatisticsSection */}
-      <div id="statisticsSection">
-        <div id="statisticsHeading">
-          <h1>Statistics</h1>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-            <br /> Vivamus lacinia odio vitae vestibulum vestibulum.
-          </p>
-        </div>
-        <div id="statisticsValue">
-          <h1>7k</h1>
-          <p>CUSTOMER</p>
-        </div>
-        <div id="statisticsValue">
-          <h1>109</h1>
-          <p>OUTLETS</p>
-        </div>
-        <div id="statisticsValue">
-          <h1>35</h1>
-          <p>COUNTRY</p>
-        </div>
-      </div>
+    
       {/* Papolar Package Section */}
       <div id="packageSection">
         <div id="packageHeading">

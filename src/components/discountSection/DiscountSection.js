@@ -1,7 +1,13 @@
+// CSS
 import '../FontsStyle.css';
 import './DiscountSection.css';
+
+// IMAGE
 import logo from "../../images/Logo.png";
-import RedButton from "../multiButton/MultiButton.js";
+
+// Component
+import RedButton from "../button/MultiButton.js";
+import WhitePara from '../pehragraph/ProductPara';
 
 function DiscountSection() {
     return (
@@ -43,10 +49,7 @@ function DiscountSection() {
                     Get Cashback
                     <br /> up to 50%
                 </h1>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-                    consectetur justo eu nunc consequat.
-                </p>
+                <WhitePara />
                 <RedButton />
             </div>
         </div>

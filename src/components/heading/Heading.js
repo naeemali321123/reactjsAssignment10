@@ -1,20 +1,22 @@
+// CSS
 import '../FontsStyle.css';
-import './ProductHeading.css';
+import './Heading.css';
 
-export default function WhiteHeading() {
+
+export default function WhiteHeading(prose) {
     return (
         <div className="whiteHeading">
             <h1>
-                Best Burger
+                {prose.heading}
             </h1>
         </div>
     )
 }
-export function RedHeading() {
+export function RedHeading(prose) {
     return (
         <div id="redHeading" className="whiteHeading">
             <h1>
-                Best Burger
+                {prose.heading}
             </h1>
         </div>
     )

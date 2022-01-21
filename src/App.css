@@ -1,117 +1,3 @@
-/* burger category section2 */
-
-#burgerCategorySection1 {
-	background-image: url(./images/Background03.jpg);
-	background-size: cover;
-	background-position: center;
-	color: #f64b3c;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	flex-wrap: wrap;
-	padding: 7%;
-}
-
-#burgerInfo1 {
-	width: 50%;
-}
-
-#burgerCategorySection1 h1 {
-	font-size: 70px;
-	font-family: Archivo-Bold;
-	padding: 20px 0px;
-}
-
-#burgerCategorySection1 p {
-	font-size: 24px;
-	font-family: Nunito-Regular;
-	padding-bottom: 40px;
-}
-
-#burgerImage1 {
-	width: 50%;
-	text-align: right;
-}
-
-#burgerImage1 img {
-	width: 80%;
-}
-
-/* order now button */
-
-#burgerCategorySection1 h2,
-#bestPackage h2 {
-	font-size: 22px;
-	font-family: Poppins-SemiBold;
-	background-color: #f64b3c;
-	color: white;
-	width: 200px;
-	padding: 10px 30px;
-	text-align: center;
-	border-radius: 30px;
-}
-
-#burgerCategorySection1 h2 a,
-#bestPackage h2 a {
-	text-decoration: none;
-	color: white;
-}
-
-#burgerCategorySection1 h2 a:hover,
-#bestPackage h2 a:hover {
-	color: wheat;
-}
-
-/* statistics Section */
-
-#statisticsSection {
-	background-color: #f64b3c;
-	color: white;
-	display: grid;
-	grid-template-rows: repeat(2, minmax(250px, 1fr));
-	grid-template-columns: repeat(3, minmax(250px, 1fr));
-	justify-items: center;
-	text-align: center;
-	padding: 7%;
-}
-
-#statisticsHeading {
-	grid-column: 1/-1;
-}
-
-#statisticsHeading h1 {
-	font-size: 70px;
-	font-family: Archivo-Bold;
-	padding: 40px;
-}
-
-#statisticsHeading p {
-	font-family: Montserrat-Regular;
-	font-size: 22px;
-}
-
-#statisticsValue {
-	width: 250px;
-	height: 250px;
-	border: 5px solid white;
-	border-radius: 100%;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	flex-direction: column;
-}
-
-#statisticsValue h1 {
-	font-size: 70px;
-	font-family: Archivo-Bold;
-}
-
-#statisticsValue p {
-	font-size: 22px;
-	font-family: Montserrat-Bold;
-}
-
-/* ------------------------------- */
 
 /* package section */
 
@@ -344,16 +230,6 @@ input:focus::placeholder {
 /* responsive 4 tap */
 
 @media only screen and (max-width: 800px) {
-	#statisticsValue {
-		width: 200px;
-		height: 200px;
-	}
-
-	#statisticsSection {
-		grid-template-columns: repeat(3, minmax(200px, 1fr));
-		padding: 5%;
-	}
-
 	#packageSection {
 		padding: 5px;
 	}
@@ -399,19 +275,10 @@ input:focus::placeholder {
 /* mobile responsive */
 @media only screen and (max-width: 600px) {
 
-	#statisticsSection,
 	#packageSection,
 	#linkSection {
 		grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
 		text-align: center;
-	}
-	#statisticsHeading h1 {
-		font-size: 50px;
-		padding: 30px;
-	}
-
-	#statisticsValue {
-		margin-bottom: 50px;
 	}
 
 	#packageHeading {

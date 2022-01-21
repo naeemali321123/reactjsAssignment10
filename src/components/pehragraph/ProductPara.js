@@ -1,7 +1,7 @@
 import '../FontsStyle.css';
 import './ProductPara.css';
 
-export default function WhitePara() {
+export default function WhitePara(prose) {
     return (
         <div className="whitePara">
             <p>
@@ -11,7 +11,7 @@ export default function WhitePara() {
         </div>
     )
 }
-export function RedPara() {
+export function RedPara(prose) {
     return (
         <div className="whitePara" id="redPara">
             <p>

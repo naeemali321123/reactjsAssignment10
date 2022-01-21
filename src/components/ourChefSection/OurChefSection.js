@@ -1,21 +1,23 @@
 import '../FontsStyle.css';
 import './OurChefSection.css';
-import Chef, {Chef1 , Chef2} from "../multiChef/MultiChef";
+import Chef from "../chef/MultiChef";
+import { RedPara } from '../pehragraph/ProductPara';
+import { RedHeading } from '../heading/Heading';
+import Image from '../../images/Chef01.png';
+import Image1 from '../../images/Chef02.png';
+import Image2 from '../../images/Chef03.png';
 
 
 function OurChefSection() {
     return (
         <div id="ourChefSection" className="uniPadding">
             <div id="chefDetail">
-                <h1>Our Chef</h1>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br />
-                    Vivamus lacinia odio vitae vestibulum vestibulum.
-                </p>
+                <RedHeading heading='Our Chef' />
+                <RedPara />
             </div>
-            <Chef />
-            <Chef1 />
-            <Chef2 />
+            <Chef para="Founder" heading="Naeem Ali" image={Image}/>
+            <Chef para="Co Founder" heading="Hina Rubani" image={Image1}/>
+            <Chef para="Co Founder" heading="Shabnam" image={Image2}/>
         </div>
     )
 }
