@@ -1,0 +1,40 @@
+/* barry Henderson Section */
+
+#barryHendersonSection {
+	background-image: url(../../images/Background06.jpg);
+	background-size: cover;
+	color: white;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 680px;
+}
+
+#barryHendersonSection p {
+	width: 50%;
+	font-size: 30px;
+	font-family: Archivo-Bold;
+	padding: 40px;
+	text-align: center;
+}
+
+#barryHendersonSection h1 {
+	font-size: 40px;
+	font-family: Montserrat-Bold;
+}
+
+/* mobile responsive */
+@media only screen and (max-width: 600px) {
+	#barryHendersonSectio {
+		height: auto;
+		padding: 200px 10px;
+	}
+	#barryHendersonSection p {
+		font-size: 20px;
+		width: 100%;
+	}
+	#barryHendersonSection h1 {
+		font-size: 30px;
+	}
+}

@@ -1,0 +1,43 @@
+#bestPackage {
+	background-color: white;
+	padding: 20px;
+	width: 240px;
+	text-align: center;
+	padding: 10px 10px 10% 10px;
+}
+
+#bestPackage h1 {
+	font-size: 30px;
+	font-family: Archivo-Bold;
+	padding-bottom: 20px;
+}
+
+#bestPackage h3 {
+	padding: 10px;
+	font-size: 22px;
+	font-family: Archivo-Bold;
+}
+
+#bestPackage p {
+	font-size: 18px;
+	font-family: Montserrat-Regular;
+	padding-bottom: 20px;
+}
+
+/* responsive 4 tap */
+@media only screen and (max-width: 800px) {
+	#bestPackage {
+		padding: 10px 10px 8% 10px;
+		width: 220px;
+	}
+}
+/* mobile responsive */
+
+@media only screen and (max-width: 600px) {
+	#bestPackage {
+		width: 270px;
+		margin: 10px 0px;
+		display: grid;
+		justify-items: center;
+	}
+}

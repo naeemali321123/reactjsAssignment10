@@ -1,0 +1,20 @@
+#socialIcon {
+	display: flex;
+}
+
+#socialIcon a:hover {
+	font-size: 22px;
+}
+
+.fab {
+	background-color: white;
+	color: #222222;
+	padding: 10px;
+	border-radius: 100%;
+	text-align: center;
+	margin: 5px;
+}
+
+.fa-facebook-f {
+	padding: 10px 14px;
+}

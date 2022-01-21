@@ -10,6 +10,12 @@ import RedButton from "../button/MultiButton.js";
 import WhitePara from '../pehragraph/ProductPara';
 
 function DiscountSection() {
+    function openMenu() {
+
+    }
+    function closeMenu() {
+
+    }
     return (
         <div id="discountSection" className="uniPadding">
             <div id="topbar">

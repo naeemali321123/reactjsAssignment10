@@ -1,0 +1,32 @@
+/* Subscribe Section */
+
+#subscribeSection {
+	background-image: url(../../images/Background02.jpg);
+	background-size: cover;
+	background-position: center;
+	color: #f64b3c;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	padding: 7%;
+	height: 650px;
+}
+#subscribeSection p {
+	text-align: center;
+	width: 60%;
+}
+/* mobile responsive */
+@media only screen and (max-width: 600px) {
+	#subscribeSection {
+		height: auto;
+		padding: 200px 10px;
+	}
+	#subscribeSection h1 {
+		font-size: 30px;
+		text-align: center;
+	}
+	#subscribeSection p {
+		width: 93%;
+	}
+}

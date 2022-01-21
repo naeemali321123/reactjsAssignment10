@@ -3,7 +3,7 @@
 	display: flex;
 	align-items: center;
 	flex-wrap: wrap;
-	padding: 7%;
+	padding: 100px 7% 100px 7%;
 }
 #BurCatContainer1 {
 	background-image: url(../../images/Background03.jpg);
