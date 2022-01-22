@@ -62,9 +62,9 @@
 }
 
 /* mobile responsive */
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 800px) {
 	#linkSection {
-		grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+		grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 		text-align: center;
 	}
 
