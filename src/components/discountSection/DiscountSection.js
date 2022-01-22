@@ -1,5 +1,4 @@
 // CSS
-import '../FontsStyle.css';
 import './DiscountSection.css';
 
 // IMAGE
@@ -11,11 +10,11 @@ import RedButton from "../button/MultiButton.js";
 import WhitePara from '../pehragraph/ProductPara';
 
 function DiscountSection() {
-    function openMenu(){
-       
+    function openMenu() {
+
     }
-    
-    function closeMenu(){
+
+    function closeMenu() {
     }
     return (
         <div id="discountSection" className="uniPadding">

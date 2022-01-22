@@ -1,5 +1,4 @@
 // CSS
-import '../FontsStyle.css';
 import './SubscribeSection.css';
 // Component
 import { RedHeading } from '../heading/Heading.js';

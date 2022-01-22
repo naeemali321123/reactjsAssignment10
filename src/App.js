@@ -1,5 +1,4 @@
 // CSS LINK
-import './components/FontsStyle.css';
 import "./App.css";
 
 // components LINK

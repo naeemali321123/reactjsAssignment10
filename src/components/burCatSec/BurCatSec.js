@@ -1,5 +1,4 @@
 // StyleSheet
-import '../FontsStyle.css';
 import './BurCatSec.css';
 
 // Components link
@@ -36,7 +35,7 @@ export function BurCatSec1() {
         <RedButton />
       </div>
       <div className="burgerImage">
-      <ProductImage Image={BurgerImage2} />
+        <ProductImage Image={BurgerImage2} />
       </div>
     </div>
   )

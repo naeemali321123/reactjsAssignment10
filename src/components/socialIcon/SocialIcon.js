@@ -1,5 +1,4 @@
 // css
-import '../FontsStyle.css';
 import './SocialIcon.css';
 // image
 import facebookIcon from '../../images/facebookIcon.png'

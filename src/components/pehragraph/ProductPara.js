@@ -1,4 +1,3 @@
-import '../FontsStyle.css';
 import './ProductPara.css';
 
 export default function WhitePara(prose) {

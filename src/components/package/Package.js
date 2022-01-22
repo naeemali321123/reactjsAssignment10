@@ -1,6 +1,6 @@
-import RedButton from '../button/MultiButton';
-import '../FontsStyle.css';
 import './Package.css';
+// COMPONENET
+import RedButton from '../button/MultiButton';
 
 
 

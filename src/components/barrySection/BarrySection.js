@@ -1,5 +1,4 @@
 // CSS
-import '../FontsStyle.css';
 import './BarrySection.css';
 // Component
 import WhitePara from '../pehragraph/ProductPara';

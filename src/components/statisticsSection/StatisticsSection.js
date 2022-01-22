@@ -1,5 +1,4 @@
 // CSS
-import '../FontsStyle.css';
 import './StatisticsSection.css';
 // Component
 import WhiteHeading from '../heading/Heading';

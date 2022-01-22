@@ -1,4 +1,3 @@
-import '../FontsStyle.css';
 import './SubscribeForm.css';
 
 export default function SubscribeForm() {

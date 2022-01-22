@@ -1,4 +1,3 @@
-import '../FontsStyle.css';
 import './MultiChef.css';
 
 export default function Chef(prose) {

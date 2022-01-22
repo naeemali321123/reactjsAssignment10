@@ -1,4 +1,3 @@
-import '../FontsStyle.css';
 import './StatisticsValue.css';
 
 export default function StatisticsValue(prose) {

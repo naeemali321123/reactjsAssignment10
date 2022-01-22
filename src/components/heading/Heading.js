@@ -1,5 +1,4 @@
 // CSS
-import '../FontsStyle.css';
 import './Heading.css';
 
 

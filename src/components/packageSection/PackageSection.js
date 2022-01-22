@@ -1,5 +1,4 @@
 // CSS
-import '../FontsStyle.css';
 import './PackageSection.css';
 import BurgerIcon from '../../images/BurgerIcon.png';
 import { RedHeading } from '../heading/Heading';

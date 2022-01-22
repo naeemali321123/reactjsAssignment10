@@ -1,4 +1,3 @@
-import '../FontsStyle.css';
 import './LinkList.css';
 
 export default function LinkList(props) {

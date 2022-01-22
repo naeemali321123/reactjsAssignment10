@@ -1,4 +1,3 @@
-import '../FontsStyle.css';
 import './ProductImage.css';
 
 export default function ProductImage(prose) {

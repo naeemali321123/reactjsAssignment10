@@ -1,4 +1,3 @@
-import '../FontsStyle.css';
 import './OurChefSection.css';
 import Chef from "../chef/MultiChef";
 import { RedPara } from '../pehragraph/ProductPara';
@@ -15,9 +14,9 @@ function OurChefSection() {
                 <RedHeading heading='Our Chef' />
                 <RedPara />
             </div>
-            <Chef para="Founder" heading="Naeem Ali" image={Image}/>
-            <Chef para="Co Founder" heading="Hina Rubani" image={Image1}/>
-            <Chef para="Co Founder" heading="Shabnam" image={Image2}/>
+            <Chef para="Founder" heading="Naeem Ali" image={Image} />
+            <Chef para="Co Founder" heading="Hina Rubani" image={Image1} />
+            <Chef para="Co Founder" heading="Shabnam" image={Image2} />
         </div>
     )
 }
