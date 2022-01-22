@@ -24,7 +24,7 @@
 	width: 50%;
 }
 
-#menuBar, #crossMenu i{
+#menuBar, #navbar ul li :first-child{
 	display: none;
 }
 
@@ -32,9 +32,7 @@
 	width: 50%;
 	text-align: right;
 }
-#navbar ul:first-child{
-	display: none;
-}
+
 #navbar ul li {
 	display: inline-block;
 	font-size: 18px;
@@ -98,7 +96,7 @@
 	#navbar ul {
 		position: absolute;
 		left: -130px;
-		top: 0px;
+		top: -15px;
 		display: flex;
 		flex-direction: column;
 		transition: .5s;
@@ -114,11 +112,15 @@
 		display: inline;
 		font-size: 50px;
 	}
-	#menuBar:hover {
-		color: wheat;
+	#navbar ul li :first-child{
+		display: inline-block;
 	}
-	.far {
-		display: inline;
+	#navbar ul :first-child{
+		text-align: right;
+	}
+	
+	#menuBar img:hover {
+		width: 58px;
 	}
 	#navbar ul a:hover {
 		background-color: white;

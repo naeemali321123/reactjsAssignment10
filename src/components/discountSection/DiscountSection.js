@@ -4,17 +4,18 @@ import './DiscountSection.css';
 
 // IMAGE
 import logo from "../../images/Logo.png";
+import barIcon from "../../images/barIcon.png";
 
 // Component
 import RedButton from "../button/MultiButton.js";
 import WhitePara from '../pehragraph/ProductPara';
 
 function DiscountSection() {
-    function openMenu() {
-
+    function openMenu(){
+       
     }
-    function closeMenu() {
-
+    
+    function closeMenu(){
     }
     return (
         <div id="discountSection" className="uniPadding">
@@ -23,13 +24,13 @@ function DiscountSection() {
                     <img src={logo} alt="Logo" />
                 </div>
                 <div id="navbar">
-                    <div id="menuBar" onClick="openMenu()">
-                        <i class="fas fa-bars"></i>
+                    <div id="menuBar" onClick={openMenu}>
+                        <img src={barIcon} ali='Menu Icon' />
                     </div>
                     <ul>
                         <a href="">
-                            <li id='crossMenu' onClick="closeMenu()">
-                                <i class="far fa-times-circle"></i>
+                            <li onClick={closeMenu}>
+                                <b>&#10005;</b>
                             </li>
                         </a>
                         <a href="">

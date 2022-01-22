@@ -6,15 +6,10 @@
 	font-size: 22px;
 }
 
-.fab {
-	background-color: white;
-	color: #222222;
-	padding: 10px;
-	border-radius: 100%;
-	text-align: center;
+.fab img{
+	width: 40px;
 	margin: 5px;
 }
-
-.fa-facebook-f {
-	padding: 10px 14px;
+.fab img:hover{
+	width: 42px;
 }
