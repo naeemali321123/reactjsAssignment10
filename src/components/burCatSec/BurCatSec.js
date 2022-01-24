@@ -3,7 +3,7 @@ import './BurCatSec.css';
 
 // Components link
 import ProductImage from '../image/ProductImage';
-import RedButton, { WhiteButton } from '../button/MultiButton';
+import RedButton, { WhiteButton } from '../multiButton/MultiButton';
 import WhiteHeading, { RedHeading } from '../heading/Heading';
 import WhitePara, { RedPara } from '../pehragraph/ProductPara';
 // Images

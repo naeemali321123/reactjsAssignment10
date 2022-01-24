@@ -1,6 +1,6 @@
 import './Package.css';
 // COMPONENET
-import RedButton from '../button/MultiButton';
+import RedButton from '../multiButton/MultiButton';
 
 
 
