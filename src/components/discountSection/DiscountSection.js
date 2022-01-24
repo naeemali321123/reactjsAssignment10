@@ -8,21 +8,23 @@ import barIcon from "../../images/barIcon.png";
 // Component
 import RedButton from "../button/MultiButton.js";
 import WhitePara from '../pehragraph/ProductPara';
+import { useState } from 'react';
+
 
 function DiscountSection() {
+    const [bg, setBg] = useState('red');
     function openMenu() {
-
-    }
-
-    function closeMenu() {
-    }
+        setBg('yellow');
+    };
+    function closeMenu() {};
+    
     return (
         <div id="discountSection" className="uniPadding">
             <div id="topbar">
                 <div id="logo">
                     <img src={logo} alt="Logo" />
                 </div>
-                <div id="navbar">
+                <div id="navbar" style={{backgroundColor: bg }}>
                     <div id="menuBar" onClick={openMenu}>
                         <img src={barIcon} ali='Menu Icon' />
                     </div>

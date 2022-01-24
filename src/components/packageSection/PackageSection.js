@@ -1,6 +1,6 @@
 // CSS
 import './PackageSection.css';
-import BurgerIcon from '../../images/BurgerIcon.png';
+import BurgerIcon from '../../images/burgerIcon.png';
 import { RedHeading } from '../heading/Heading';
 import Package from '../package/Package';
 
