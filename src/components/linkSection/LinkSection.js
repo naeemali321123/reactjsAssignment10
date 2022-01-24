@@ -2,7 +2,7 @@
 import './LinkSection.css';
 // Componenet
 import WhiteHeading from '../heading/Heading';
-import WhitePara from '../pehragraph/ProductPara';
+import WhitePara from '../productPara/ProductPara';
 import SocialIcon from '../socialIcon/SocialIcon';
 import LinkList from '../linkList/LinkList';
 

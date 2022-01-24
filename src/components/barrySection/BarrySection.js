@@ -1,7 +1,7 @@
 // CSS
 import './BarrySection.css';
 // Component
-import WhitePara from '../pehragraph/ProductPara';
+import WhitePara from '../productPara/ProductPara';
 import WhiteHeading from '../heading/Heading';
 
 export default function BarrySection() {

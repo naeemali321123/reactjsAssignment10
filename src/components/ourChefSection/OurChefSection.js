@@ -1,6 +1,6 @@
 import './OurChefSection.css';
 import Chef from "../multiChef/MultiChef";
-import { RedPara } from '../pehragraph/ProductPara';
+import { RedPara } from '../productPara/ProductPara';
 import { RedHeading } from '../heading/Heading';
 import Image from '../../images/Chef01.png';
 import Image1 from '../../images/Chef02.png';

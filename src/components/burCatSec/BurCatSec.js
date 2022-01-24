@@ -2,10 +2,10 @@
 import './BurCatSec.css';
 
 // Components link
-import ProductImage from '../image/ProductImage';
+import ProductImage from '../productImage/ProductImage';
 import RedButton, { WhiteButton } from '../multiButton/MultiButton';
 import WhiteHeading, { RedHeading } from '../heading/Heading';
-import WhitePara, { RedPara } from '../pehragraph/ProductPara';
+import WhitePara, { RedPara } from '../productPara/ProductPara';
 // Images
 import BurgerImage1 from '../../images/BurgerImage1.png';
 import BurgerImage2 from '../../images/BurgerImage2.png';

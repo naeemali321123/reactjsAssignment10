@@ -2,7 +2,7 @@
 import './StatisticsSection.css';
 // Component
 import WhiteHeading from '../heading/Heading';
-import WhitePara from '../pehragraph/ProductPara';
+import WhitePara from '../productPara/ProductPara';
 import StatisticsValue from '../statisticsValue/StatisticsValue';
 
 

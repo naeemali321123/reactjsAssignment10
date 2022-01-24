@@ -7,7 +7,7 @@ import barIcon from "../../images/barIcon.png";
 
 // Component
 import RedButton from "../multiButton/MultiButton.js";
-import WhitePara from '../pehragraph/ProductPara';
+import WhitePara from '../productPara/ProductPara';
 import { useState } from 'react';
 
 
